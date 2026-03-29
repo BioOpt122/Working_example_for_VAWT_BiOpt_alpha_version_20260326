@@ -1,6 +1,6 @@
 Hello, here is a working example for alpha version algorithm
 
-Upon extracting the three compressed files (VAWT_BiOpt_alpha_version_20260326.zip, VAWT_BiOpt_alpha_version_20260326.z01, and VAWT_BiOpt_alpha_version_20260326.z02), a complete executable (.exe) file is obtained. Double-clicking the file starts the case calculation, which automatically imports the three input flow field signals and generates a fused flow field signal.
+Upon extracting the three compressed files (VAWT_BiOpt_alpha_version_20260329.zip, VAWT_BiOpt_alpha_version_20260329.z01, and VAWT_BiOpt_alpha_version_20260329.z02), a complete executable (.exe) file is obtained. Double-clicking the file starts the case calculation, which automatically imports the three input flow field signals and generates a fused flow field signal.
 
 VAWT_BiOpt_alpha_version_20260329 Executable
 
