@@ -2,6 +2,9 @@ Hello, here is a working example for alpha version algorithm
 
 Upon extracting the three compressed files (VAWT_BiOpt_alpha_version_20260329.zip, VAWT_BiOpt_alpha_version_20260329.z01, and VAWT_BiOpt_alpha_version_20260329.z02), a complete executable (.exe) file is obtained. Double-clicking the file starts the case calculation, which automatically imports the three input flow field signals and generates a fused flow field signal.
 
+Extracting the five compressed files (Example_data.zip, Example_data.z01, Example_data.z02, Example_data.z03, and Example_data.z04) yields three input flow field data files (Inputxxx1.mat, Inputxxx2.mat, and Inputxxx3.mat) and one output fused flow field data file (Outputxxx4.mat). These files contain velocity signals from 20 measurement points arranged along the normal direction in the blade wake region, with a sampling frequency of 4000 Hz and 262,144 samples per point.
+
+
 VAWT_BiOpt_alpha_version_20260329 Executable
 
 1. Prerequisites for Deployment 
