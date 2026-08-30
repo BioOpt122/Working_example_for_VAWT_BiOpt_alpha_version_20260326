@@ -61,6 +61,8 @@ In the conclusion validation stage, the optimal modal combination cases are obta
 
 The present example aims to fuse flow field data obtained under single-row bio-inspired covert control. Low-order flow field data (mean velocity, turbulence intensity) are rapidly utilized for data grouping during the preprocessing stage following data acquisition, while the algorithm training primarily employs the time–frequency domain distribution features obtained via wavelet decomposition of the experimental data. The physical interpretation of these features is the amplitude modulation effect of large-scale fluctuations on small-scale fluctuations, which is further used to predict flow field signals under combined multi-row bio-inspired covert control. The overarching goal of this study is to identify qualitative optimal modes and reveal deeper physical mechanisms within the flow field, rather than to achieve precise quantitative predictions. Accordingly, this paper focuses on the qualitative relationships between the kinematic modes of bio-inspired covert structures and the resulting flow structures, as well as their coupling with the mechanical properties of the blade. The primary purpose of this example is to propose this training framework and to determine the priority of synergistic modes among multi-row bio-inspired covert structures. It is worth noting that prediction accuracy can be progressively improved by increasing data input, enriching the physical features used as feedback, increasing the number and precision of genetic factors, and extending iteration steps. However, such improvements would require additional experimental cases and their repetitions, more validation experiments with flow field and force measurements, and a substantial number of cases for algorithm training. As this is not the focus of the present study, these aspects are not further elaborated.
 
+The software runs in the MATLAB environment. While installing MATLAB on a normal computer takes approximately 10 minutes, the runtime of the software itself may extend to several days. This is because the software requires a relatively large amount of data to attain convergence. Although we have endeavoured to minimise the size of the example dataset, the computational time remains substantial.
+
 The specific parameters of this example are described as follows:
 
 4.1. Three sets of flow field data that have undergone preprocessing and modal classification—designated xxx1, xxx2, and xxx3—are imported for demonstration. These data correspond to velocity signals captured by a hot-wire anemometer at the trailing edge position x/c = 0.7 (where c is the blade chord length and x is the streamwise coordinate) under a critical angle of attack of 15° for a single blade, with the 20%c, 40%c, and 60%c bio-inspired covert structures acting individually. For each case, 20 measurement points are included, with a sampling frequency of 4000 Hz and 262,144 sampling points per point.
@@ -72,8 +74,8 @@ The specific parameters of this example are described as follows:
 4.4. This example integrates the input flow field datasets xxx1, xxx2, and xxx3 to generate the fused dataset xxx4. Of note, each experimental condition encompasses 20 measurement points. The visualization corresponds to the flow field data acquired at the fourth characteristic measurement point, located at the shear layer center characterized by high turbulent kinetic energy.
 
 
-Copyright @XuAn Gong
-2026, 03, 29
+Copyright @BioOpt122
+2026, 08, 30
 
 
 
